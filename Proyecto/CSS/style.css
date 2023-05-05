@@ -1,0 +1,181 @@
+body header {
+  background-color: red;
+}
+body header nav div a img.icononav {
+  width: 150px;
+  height: 150px;
+  border-image: 20px;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+body header nav ul {
+  list-style-type: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: oblique;
+  text-align: right;
+  margin-right: 100px;
+}
+body header nav ul li {
+  display: inline-block;
+  position: relative;
+}
+body {
+  background-image: url(../Imagenes/fondo-textura-lisa-gris.jpg);
+}
+body main h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+body main section p.industria {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(178, 119, 96);
+  text-align: center;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body main section p.industria2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(178, 119, 96);
+  text-align: center;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body main section div img {
+  margin-left: 250px;
+  padding-left: 100px;
+}
+body section div figure.soldador {
+  margin-left: 350px;
+}
+footer {
+  background-color: rgb(85, 81, 81);
+}
+
+footer div {
+  margin-left: 400px;
+  display: flex;
+  gap: 30px;
+}
+footer div p {
+  text-align: center;
+  justify-content: center;
+  margin-left: -30px;
+}
+body main section h2 {
+  align-content: center;
+  text-align: center;
+}
+
+body main section div p {
+  margin-left: 400px;
+}
+body main section div form fieldset {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+body article img {
+  margin-left: 300px;
+}
+body main section div p {
+  margin-left: 300px;
+}
+body article p {
+  text-align: justify;
+  text-align: center;
+  margin-left: -50px;
+}
+body main section p.ubicacion {
+  text-align: center;
+  justify-content: center;
+  color: aqua;
+}
+body main section div iframe.ubicacion {
+  margin-left: 300px;
+}
+footer.ubicacion {
+  margin-top: 50px;
+}
+body main section p.informacion0 {
+  text-align: center;
+  text-align: justify;
+  color: aquamarine;
+}
+body main section div img.soldador {
+  margin-left: 400px;
+}
+body main section p.informacion1 {
+  text-align: center;
+  text-align: justify;
+  color: aquamarine;
+}
+body main section div img.galpon {
+  margin-left: 400px;
+}
+body main section p.informacion2 {
+  text-align: center;
+  text-align: justify;
+  color: aquamarine;
+}
+body main section p.nosotros {
+  text-align: center;
+  text-align: center;
+  align-content: center;
+  color: aquamarine;
+}
+body section div iframe.video {
+  align-content: center;
+  justify-content: center;
+  margin-left: 350px;
+}
+body main section.contenedor {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+body main section img.almacen {
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body main section img.inoxidable {
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+}
+footer.nosotros {
+  margin-top: 50px;
+}
+body main section div p.contacto1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aquamarine;
+  justify-content: center;
+  align-content: center;
+}
+body main section div form fieldset {
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  text-align: center;
+}
+body article img.texturaacero1 {
+  justify-content: center;
+  align-content: center;
+  margin-left: 350px;
+}
+body article p.contacto2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aquamarine;
+  justify-content: center;
+  align-content: center;
+}
