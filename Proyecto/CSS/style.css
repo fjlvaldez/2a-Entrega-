@@ -55,13 +55,10 @@ body main section p.industria2 {
   padding-right: 50px;
   margin-top: 10px;
 }
-
-body main section div img {
-  width: 500px;
-  height: 500px;
-  margin-left: 200px;
+body main div div img.galpon {
+  width: 300 px;
+  height: 300px;
 }
-
 footer {
   background-color: white;
   margin-top: 50px;
@@ -134,7 +131,7 @@ body main section p.informacion1 {
   color: black;
 }
 body main section div img.galpon {
-  margin-left: 200px;
+  margin-left: 350px;
 }
 body main section p.informacion2 {
   text-align: center;
