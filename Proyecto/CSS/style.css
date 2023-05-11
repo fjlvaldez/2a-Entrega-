@@ -1,24 +1,27 @@
 body header {
-  background-color: red;
+  background-color: white;
+}
+body section header nav h1.titulo {
+  text-align: center;
+  text-justify: center;
+  color: black;
 }
 body header nav div a img.icononav {
-  width: 150px;
-  height: 150px;
-  border-image: 20px;
-  padding-left: 150px;
-  padding-top: 50px;
+  width: 100px;
+  height: 100px;
+  align-content: left;
 }
 body header nav ul {
   list-style-type: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: oblique;
+  justify-content: right;
   text-align: right;
-  margin-right: 100px;
+  text-justify: right;
 }
 body header nav ul li {
   display: inline-block;
-  position: relative;
 }
 body {
   background-image: url(../Imagenes/fondo-textura-lisa-gris.jpg);
@@ -32,35 +35,42 @@ body main h1 {
 
 body main section p.industria {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(178, 119, 96);
+  color: black;
   text-align: center;
   text-align: justify;
   padding-left: 50px;
   padding-right: 50px;
+}
+body section h2.titulo2 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 body main section p.industria2 {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(178, 119, 96);
+  color: black;
   text-align: center;
   text-align: justify;
   padding-left: 50px;
   padding-right: 50px;
-}
-body main section div img {
-  margin-left: 250px;
-  padding-left: 100px;
-}
-body section div figure.soldador {
-  margin-left: 350px;
-}
-footer {
-  background-color: rgb(85, 81, 81);
+  margin-top: 10px;
 }
 
-footer div {
-  margin-left: 400px;
-  display: flex;
-  gap: 30px;
+body main section div img {
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+}
+
+footer {
+  background-color: white;
+  margin-top: 50px;
+}
+
+footer div.redes {
+  padding-left: 380px;
+  align-content: center;
+  justify-content: center;
 }
 footer div p {
   text-align: center;
@@ -96,40 +106,56 @@ body article p {
 body main section p.ubicacion {
   text-align: center;
   justify-content: center;
-  color: aqua;
+  color: black;
 }
 body main section div iframe.ubicacion {
   margin-left: 300px;
 }
-footer.ubicacion {
-  margin-top: 50px;
+
+body div img.soldador1 {
+  width: 350px;
+  height: 300px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 250px;
+  margin-top: 80px;
 }
 body main section p.informacion0 {
   text-align: center;
   text-align: justify;
-  color: aquamarine;
+  color: black;
 }
 body main section div img.soldador {
-  margin-left: 400px;
+  margin-left: 200px;
 }
 body main section p.informacion1 {
   text-align: center;
   text-align: justify;
-  color: aquamarine;
+  color: black;
 }
 body main section div img.galpon {
-  margin-left: 400px;
+  margin-left: 200px;
 }
 body main section p.informacion2 {
   text-align: center;
   text-align: justify;
-  color: aquamarine;
+  color: black;
 }
 body main section p.nosotros {
   text-align: center;
   text-align: center;
   align-content: center;
-  color: aquamarine;
+  color: black;
+}
+body div h2.nosotros {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+body div p.nosotros {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 body section div iframe.video {
   align-content: center;
@@ -142,40 +168,42 @@ body main section.contenedor {
   align-content: center;
   margin-top: 50px;
 }
-body main section img.almacen {
-  height: 200px;
-  width: 200px;
-  margin-left: 50px;
-  margin-right: 50px;
+body div.carousel {
+  align-content: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 100px;
 }
-body main section img.inoxidable {
-  height: 200px;
-  width: 200px;
-  margin-left: 50px;
-}
-footer.nosotros {
-  margin-top: 50px;
-}
+
 body main section div p.contacto1 {
   font-family: Arial, Helvetica, sans-serif;
-  color: aquamarine;
+  color: black;
   justify-content: center;
   align-content: center;
 }
-body main section div form fieldset {
-  justify-content: center;
+body main div input.enviar {
+  align-items: center;
   align-content: center;
-  text-align: justify;
-  text-align: center;
+  justify-content: center;
+  margin-left: 380px;
+  border-bottom: 20px;
+  background-color: white;
 }
-body article img.texturaacero1 {
+
+body article div.texturaacero1 {
   justify-content: center;
   align-content: center;
-  margin-left: 350px;
+  height: 400px;
+  width: 400px;
+  margin-right: 100px;
+  margin-top: 50px;
 }
 body article p.contacto2 {
   font-family: Arial, Helvetica, sans-serif;
-  color: aquamarine;
-  justify-content: center;
-  align-content: center;
+  color: black;
+  justify-content: right;
+  align-content: right;
+  text-align: right;
 }
