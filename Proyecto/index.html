@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,51 +21,67 @@
   </head>
   <body>
     <section class="container fluid">
-      <header>
-        <nav>
-          <h1 class="titulo">Industria Metalurgica</h1>
-          <div class="container fluid">
-            <a class="navbar-brand" href="index.html">
-              <img class="icononav" src="./Imagenes/Icono.jpg" alt="icono" />
-            </a>
-          </div>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="./Paginas/ubicacion.html">Ubicación</a></li>
-            <li><a href="./Paginas/informacion.html">Informacion</a></li>
-            <li><a href="./Paginas/nostros.html">Nosotros</a></li>
-            <li><a href="./Paginas/contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
+      <div class="col" style="background-color: white">
+        <div class="row">
+          <header>
+            <nav>
+              <h1 class="titulo">Industria Metalurgica</h1>
+              <div class="container fluid">
+                <a class="navbar-brand" href="index.html">
+                  <img
+                    class="icononav"
+                    src="./Imagenes/Icono.jpg"
+                    alt="icono"
+                  />
+                </a>
+              </div>
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./Paginas/ubicacion.html">Ubicación</a></li>
+                <li><a href="./Paginas/informacion.html">Informacion</a></li>
+                <li><a href="./Paginas/nostros.html">Nosotros</a></li>
+                <li><a href="./Paginas/contacto.html">Contacto</a></li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+      </div>
+
       <main>
-        <section>
-          <h2 class="titulo1">Somos una empresa confiable</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h2 class="titulo1">Cumplimos en tiempo y forma</h2>
+              <p class="industria2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                sapiente quam reiciendis ratione consequatur molestias vel
+                quibusdam porro dignissimos magnam omnis, mollitia, enim vitae
+                tenetur laudantium, quis quia quisquam facilis.
+              </p>
+            </div>
+            <div class="col-6">
+              <h2 class="titulo1">Somos una empresa confiable</h2>
 
-          <p class="industria">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-            repellendus vero omnis minus architecto molestiae dolorem, itaque
-            optio cumque
-          </p>
-
-          <div>
-            <img
-              src="./Imagenes/galpon.jpg"
-              alt="galpon"
-              width="400px"
-              height="400px"
-            />
+              <p class="industria">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                repellendus vero omnis minus architecto molestiae dolorem,
+                itaque optio cumque
+              </p>
+            </div>
           </div>
-        </section>
-        <section>
-          <h2 class="titulo2">Cumplimos en tiempo y forma</h2>
-          <p class="industria2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sapiente
-            quam reiciendis ratione consequatur molestias vel quibusdam porro
-            dignissimos magnam omnis, mollitia, enim vitae tenetur laudantium,
-            quis quia quisquam facilis.
-          </p>
-        </section>
+          <div class="row">
+            <div class="col-6">
+              <img class="galpon" src="./Imagenes/galpon.jpg" alt="galpon" />
+            </div>
+            <div class="col-6">
+              <img
+                class="galpon"
+                src="./Imagenes/almacen-grande-fabrica-acero.jpg"
+                alt="galpon"
+              />
+            </div>
+          </div>
+        </div>
       </main>
 
       <script
@@ -75,24 +90,28 @@
         crossorigin="anonymous"
       ></script>
 
-      <footer>
-        <div class="redes" id="footer_social_media">
-          <a href="#" class="footer-link" id="instagram"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="#" class="footer-link" id="facebook"
-            ><i class="fa-brands fa-facebook-f"></i></a
-          ><a href="#" class="footer-link" id="twitter"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-          <a href="#" class="footer-link" id="whatsapp"
-            ><i class="fa-brands fa-whatsapp"></i
-          ></a>
+      <div class="container">
+        <div class="row">
+          <footer>
+            <div class="redes" id="footer_social_media">
+              <a href="#" class="footer-link" id="instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="footer-link" id="facebook"
+                ><i class="fa-brands fa-facebook-f"></i></a
+              ><a href="#" class="footer-link" id="twitter"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" class="footer-link" id="whatsapp"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+            <div>
+              <p class="Copyright">&copy; Copyright Industria Metalurgica</p>
+            </div>
+          </footer>
         </div>
-        <div>
-          <p class="Copyright">&copy; Copyright Industria Metalurgica</p>
-        </div>
-      </footer>
+      </div>
     </section>
   </body>
 </html>
